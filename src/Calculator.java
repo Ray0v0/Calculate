@@ -40,6 +40,9 @@ public class Calculator {
                 case 3:
                     ret = left / right;
                     break;
+                case 4:
+                    ret = Math.pow(left, right);
+                    break;
                 default:
                     throw new Exception("UndefinedOperator");
             }

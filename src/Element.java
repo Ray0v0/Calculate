@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Element {
 
     public static final int NUMBER = 0, OPERATOR = 1, PARENTHESES = 2;
-    public static final int OPE_PLUS = 0, OPE_MINUS = 1, OPE_MULTI = 2, OPE_DIV = 3;
+    public static final int OPE_PLUS = 0, OPE_MINUS = 1, OPE_MULTI = 2, OPE_DIV = 3, OPE_POWER = 4;
     public static final int PAR_LEFT = 0, PAR_RIGHT = 1;
 
     public static int outMark = 0;
